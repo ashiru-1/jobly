@@ -1,22 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jobly
+
+Jobly is a modern, mobile-friendly job board application that helps users discover and filter remote job opportunities from top companies. It features:
+
+- Fast server-side job fetching and caching
+- Responsive, beautiful UI for both desktop and mobile
+- Powerful search and filtering with live results
+- Sticky navigation, theme toggling, and smooth modals
+- Clean, branded design and user-friendly experience
 
 ## Getting Started
 
-First, run the development server:
+1. Install dependencies:
+   ```bash
+   npm install
+   # or
+   pnpm install
+   ```
+2. Run the development server:
+   ```bash
+   npm run dev
+   # or
+   pnpm dev
+   ```
+3. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
+- Browse and search remote jobs
+- Filter by job type and keywords
+- Mobile-first design with sidebar navigation
+- Job details modal with requirements and benefits
+- Light/dark theme toggle
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Built by Cypher**
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
