@@ -11,18 +11,18 @@ export async function fetchRemotiveJobs(): Promise<{ jobs: Job[]; source: string
   try {
     console.log("Client: Fetching jobs from API route...")
 
-    const isServer = typeof window === "undefined"
-    let baseUrl = ""
+    const isServer = typeof window === "undefined";
+    let baseUrl = "";
     if (isServer) {
       if (process.env.NEXT_PUBLIC_SITE_URL) {
-        baseUrl = process.env.NEXT_PUBLIC_SITE_URL
+        baseUrl = process.env.NEXT_PUBLIC_SITE_URL;
       } else if (process.env.VERCEL_URL) {
-        baseUrl = `https://${process.env.VERCEL_URL}`
-      } else {
-        baseUrl = "http://localhost:3000"
+        baseUrl = `https://${process.env.VERCEL_URL}`;
       }
     }
-    const response = await fetch(`${baseUrl}/api/jobs`, {
+    const url = isServer ? `${baseUrl}/api/jobs` : "/api/jobs";
+    console.log("Base URL:", url);
+    const response = await fetch(url, {
       method: "GET",
       headers: {
         Accept: "application/json",
