@@ -11,7 +11,18 @@ export async function fetchRemotiveJobs(): Promise<{ jobs: Job[]; source: string
   try {
     console.log("Client: Fetching jobs from API route...")
 
-    const response = await fetch("/api/jobs", {
+    const isServer = typeof window === "undefined"
+    let baseUrl = ""
+    if (isServer) {
+      if (process.env.NEXT_PUBLIC_SITE_URL) {
+        baseUrl = process.env.NEXT_PUBLIC_SITE_URL
+      } else if (process.env.VERCEL_URL) {
+        baseUrl = `https://${process.env.VERCEL_URL}`
+      } else {
+        baseUrl = "http://localhost:3000"
+      }
+    }
+    const response = await fetch(`${baseUrl}/api/jobs`, {
       method: "GET",
       headers: {
         Accept: "application/json",
