@@ -7,7 +7,7 @@ import { ThemeProvider } from "next-themes"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "JobBoard - Find Your Dream Job",
+  title: "Jobly - Find Your Dream Job",
   description: "Discover amazing career opportunities with our modern job board platform",
     generator: 'v0.dev'
 }
@@ -19,6 +19,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/globe.svg" />
+      </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           {children}
