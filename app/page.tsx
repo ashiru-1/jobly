@@ -3,7 +3,7 @@ import JobBoardClient from "@/components/job-board-client"
 
 
 async function fetchJobsServer(): Promise<Job[]> {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000"}/api/jobs`, {
+  const res = await fetch("/api/jobs", {
     cache: "no-store"
   })
   if (!res.ok) throw new Error("Failed to fetch jobs")
