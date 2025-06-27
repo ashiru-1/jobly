@@ -57,23 +57,14 @@ export function JobDetailsModal({ job, isOpen, onClose }: JobDetailsModalProps) 
               <div className="relative mb-4 sm:mb-0 w-full sm:w-auto flex justify-center sm:justify-start">
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-3xl blur opacity-30"></div>
                 <div className="relative w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-r from-slate-100 to-slate-200 dark:from-slate-700 dark:to-slate-600 rounded-3xl flex items-center justify-center overflow-hidden mx-auto sm:mx-0">
-                  {job.logo && !logoLoaded && (
-                    <Skeleton className="w-12 h-12 sm:w-16 sm:h-16 rounded-2xl" />
-                  )}
-                  {job.logo ? (
-                    <img
-                      src={job.logo}
-                      alt={`${job.company} logo`}
-                      className={`w-12 h-12 sm:w-16 sm:h-16 object-contain ${logoLoaded ? '' : 'hidden'}`}
-                      onLoad={() => setLogoLoaded(true)}
-                      onError={(e) => {
-                        const target = e.target as HTMLImageElement
-                        target.style.display = "none"
-                        target.nextElementSibling?.classList.remove("hidden")
-                      }}
-                    />
-                  ) : null}
-                  <Building2 className={`w-8 h-8 sm:w-10 sm:h-10 text-slate-600 dark:text-slate-300 ${job.logo ? "hidden" : ""}`} />
+                  <div className="w-full h-full flex items-center justify-center rounded-3xl bg-gradient-to-r from-blue-500 to-purple-500 text-white font-bold text-xl sm:text-3xl select-none">
+                    {job.company
+                      .split(" ")
+                      .filter(Boolean)
+                      .slice(0, 2)
+                      .map(word => word[0].toUpperCase())
+                      .join("")}
+                  </div>
                 </div>
               </div>
               {/* Info: centered on mobile, left on desktop, always row */}

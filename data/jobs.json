@@ -19,7 +19,6 @@
         "Annual learning stipend"
       ],
       "postedDate": "2024-06-01",
-      "logo": "/placeholder-logo.png",
       "url": "https://acme.example.com/careers/frontend",
       "category": "Engineering",
       "tags": ["react", "typescript", "frontend"]
@@ -43,7 +42,6 @@
         "Paid parental leave"
       ],
       "postedDate": "2024-06-02",
-      "logo": "/placeholder-logo.png",
       "url": "https://betatech.example.com/jobs/backend",
       "category": "Engineering",
       "tags": ["nodejs", "backend", "sql"]
@@ -66,7 +64,6 @@
         "Flexible schedule"
       ],
       "postedDate": "2024-06-03",
-      "logo": "/placeholder-logo.png",
       "url": "https://designify.example.com/jobs/uiux",
       "category": "Design",
       "tags": ["ui", "ux", "figma"]
@@ -90,7 +87,6 @@
         "Health insurance"
       ],
       "postedDate": "2024-06-04",
-      "logo": "/placeholder-logo.png",
       "url": "https://cloudops.example.com/careers/devops",
       "category": "Operations",
       "tags": ["aws", "devops", "ci/cd"]
@@ -114,7 +110,6 @@
         "Remote work"
       ],
       "postedDate": "2024-06-05",
-      "logo": "/placeholder-logo.png",
       "url": "https://innovatex.example.com/jobs/pm",
       "category": "Product",
       "tags": ["product", "agile", "leadership"]
@@ -137,7 +132,6 @@
         "Flexible hours"
       ],
       "postedDate": "2024-06-06",
-      "logo": "/placeholder-logo.png",
       "url": "https://testify.example.com/careers/qa",
       "category": "Quality Assurance",
       "tags": ["qa", "testing", "selenium"]
@@ -160,7 +154,6 @@
         "Annual bonus"
       ],
       "postedDate": "2024-06-07",
-      "logo": "/placeholder-logo.png",
       "url": "https://appify.example.com/jobs/mobile",
       "category": "Engineering",
       "tags": ["mobile", "react native", "apps"]
@@ -184,7 +177,6 @@
         "Conference budget"
       ],
       "postedDate": "2024-06-08",
-      "logo": "/placeholder-logo.png",
       "url": "https://datawiz.example.com/careers/datasci",
       "category": "Data Science",
       "tags": ["python", "ml", "data"]
@@ -207,7 +199,6 @@
         "Flexible schedule"
       ],
       "postedDate": "2024-06-09",
-      "logo": "/placeholder-logo.png",
       "url": "https://marketly.example.com/jobs/marketing",
       "category": "Marketing",
       "tags": ["seo", "marketing", "content"]
@@ -230,7 +221,6 @@
         "Flexible hours"
       ],
       "postedDate": "2024-06-10",
-      "logo": "/placeholder-logo.png",
       "url": "https://helpdeskpro.example.com/jobs/support",
       "category": "Support",
       "tags": ["support", "customer", "helpdesk"]
@@ -254,7 +244,6 @@
         "Health insurance"
       ],
       "postedDate": "2024-06-11",
-      "logo": "/placeholder-logo.png",
       "url": "https://stackly.example.com/jobs/fullstack",
       "category": "Engineering",
       "tags": ["fullstack", "react", "nodejs"]
@@ -277,7 +266,6 @@
         "Flexible schedule"
       ],
       "postedDate": "2024-06-12",
-      "logo": "/placeholder-logo.png",
       "url": "https://writeright.example.com/jobs/content",
       "category": "Content",
       "tags": ["writing", "content", "seo"]
@@ -301,7 +289,6 @@
         "Annual bonus"
       ],
       "postedDate": "2024-06-13",
-      "logo": "/placeholder-logo.png",
       "url": "https://peoplefirst.example.com/jobs/hr",
       "category": "HR",
       "tags": ["hr", "recruitment", "people"]
@@ -325,7 +312,6 @@
         "Travel allowance"
       ],
       "postedDate": "2024-06-14",
-      "logo": "/placeholder-logo.png",
       "url": "https://sellwell.example.com/jobs/sales",
       "category": "Sales",
       "tags": ["sales", "crm", "negotiation"]
@@ -349,7 +335,6 @@
         "Annual bonus"
       ],
       "postedDate": "2024-06-15",
-      "logo": "/placeholder-logo.png",
       "url": "https://secureit.example.com/jobs/security",
       "category": "Security",
       "tags": ["security", "siem", "analyst"]
@@ -373,7 +358,6 @@
         "Annual bonus"
       ],
       "postedDate": "2024-06-16",
-      "logo": "/placeholder-logo.png",
       "url": "https://bizinsight.example.com/jobs/ba",
       "category": "Business",
       "tags": ["business", "analysis", "stakeholder"]
@@ -396,7 +380,6 @@
         "Flexible schedule"
       ],
       "postedDate": "2024-06-17",
-      "logo": "/placeholder-logo.png",
       "url": "https://creatify.example.com/jobs/graphic",
       "category": "Design",
       "tags": ["graphic", "adobe", "design"]
@@ -419,7 +402,6 @@
         "Health insurance"
       ],
       "postedDate": "2024-06-18",
-      "logo": "/placeholder-logo.png",
       "url": "https://sysops.example.com/jobs/sysadmin",
       "category": "IT",
       "tags": ["sysadmin", "linux", "windows"]
@@ -443,7 +425,6 @@
         "Health insurance"
       ],
       "postedDate": "2024-06-19",
-      "logo": "/placeholder-logo.png",
       "url": "https://mlworks.example.com/jobs/ml",
       "category": "Data Science",
       "tags": ["ml", "python", "ai"]
@@ -466,7 +447,6 @@
         "Flexible hours"
       ],
       "postedDate": "2024-06-20",
-      "logo": "/placeholder-logo.png",
       "url": "https://talentfind.example.com/jobs/recruiter",
       "category": "HR",
       "tags": ["recruiter", "hr", "talent"]
@@ -490,7 +470,6 @@
         "Health insurance"
       ],
       "postedDate": "2024-06-21",
-      "logo": "/placeholder-logo.png",
       "url": "https://cloudify.example.com/jobs/architect",
       "category": "IT",
       "tags": ["cloud", "aws", "azure"]
@@ -513,7 +492,6 @@
         "Flexible schedule"
       ],
       "postedDate": "2024-06-22",
-      "logo": "/placeholder-logo.png",
       "url": "https://copypro.example.com/jobs/copywriter",
       "category": "Content",
       "tags": ["copywriting", "seo", "marketing"]
@@ -536,7 +514,6 @@
         "Annual bonus"
       ],
       "postedDate": "2024-06-23",
-      "logo": "/placeholder-logo.png",
       "url": "https://clientfirst.example.com/jobs/csm",
       "category": "Support",
       "tags": ["customer", "success", "support"]
@@ -559,7 +536,6 @@
         "Health insurance"
       ],
       "postedDate": "2024-06-24",
-      "logo": "/placeholder-logo.png",
       "url": "https://finsight.example.com/jobs/finance",
       "category": "Finance",
       "tags": ["finance", "analysis", "reporting"]
@@ -582,7 +558,6 @@
         "Flexible hours"
       ],
       "postedDate": "2024-06-25",
-      "logo": "/placeholder-logo.png",
       "url": "https://socially.example.com/jobs/smm",
       "category": "Marketing",
       "tags": ["social", "media", "content"]
@@ -605,7 +580,6 @@
         "Annual bonus"
       ],
       "postedDate": "2024-06-26",
-      "logo": "/placeholder-logo.png",
       "url": "https://opspro.example.com/jobs/ops",
       "category": "Operations",
       "tags": ["operations", "management", "leadership"]
@@ -628,7 +602,6 @@
         "Flexible schedule"
       ],
       "postedDate": "2024-06-27",
-      "logo": "/placeholder-logo.png",
       "url": "https://docutech.example.com/jobs/techwriter",
       "category": "Content",
       "tags": ["technical", "writing", "docs"]
@@ -651,7 +624,6 @@
         "Annual bonus"
       ],
       "postedDate": "2024-06-28",
-      "logo": "/placeholder-logo.png",
       "url": "https://planit.example.com/jobs/pm",
       "category": "Project Management",
       "tags": ["project", "agile", "scrum"]
@@ -674,7 +646,6 @@
         "Health insurance"
       ],
       "postedDate": "2024-06-29",
-      "logo": "/placeholder-logo.png",
       "url": "https://bookkeepers.example.com/jobs/accountant",
       "category": "Finance",
       "tags": ["accounting", "finance", "quickbooks"]
@@ -697,7 +668,6 @@
         "Flexible hours"
       ],
       "postedDate": "2024-06-30",
-      "logo": "/placeholder-logo.png",
       "url": "https://supportly.example.com/jobs/support",
       "category": "Support",
       "tags": ["support", "customer", "service"]
@@ -713,7 +683,6 @@
       "requirements": ["Web design portfolio", "HTML/CSS", "Figma or Sketch"],
       "benefits": ["Remote contract", "Flexible schedule"],
       "postedDate": "2024-07-01",
-      "logo": "/placeholder-logo.png",
       "url": "https://pixelperfect.example.com/jobs/webdesigner",
       "category": "Design",
       "tags": ["web", "design", "contract"]
@@ -729,7 +698,6 @@
       "requirements": ["Data analysis", "Excel/Sheets", "Reporting"],
       "benefits": ["Remote contract", "Flexible hours"],
       "postedDate": "2024-07-02",
-      "logo": "/placeholder-logo.png",
       "url": "https://insightful.example.com/jobs/dataanalyst",
       "category": "Data Science",
       "tags": ["data", "analysis", "contract"]
@@ -745,7 +713,6 @@
       "requirements": ["Copywriting", "Ad experience", "SEO basics"],
       "benefits": ["Remote contract", "Flexible schedule"],
       "postedDate": "2024-07-03",
-      "logo": "/placeholder-logo.png",
       "url": "https://adcopy.example.com/jobs/copywriter",
       "category": "Marketing",
       "tags": ["copywriting", "ads", "contract"]
@@ -761,7 +728,6 @@
       "requirements": ["QA experience", "Bug reporting", "Attention to detail"],
       "benefits": ["Remote contract", "Flexible hours"],
       "postedDate": "2024-07-04",
-      "logo": "/placeholder-logo.png",
       "url": "https://bugsquashers.example.com/jobs/qa",
       "category": "Quality Assurance",
       "tags": ["qa", "testing", "contract"]
@@ -777,7 +743,6 @@
       "requirements": ["Social media", "Strategy", "Analytics"],
       "benefits": ["Remote contract", "Flexible schedule"],
       "postedDate": "2024-07-05",
-      "logo": "/placeholder-logo.png",
       "url": "https://socialboost.example.com/jobs/strategist",
       "category": "Marketing",
       "tags": ["social", "strategy", "contract"]
@@ -793,7 +758,6 @@
       "requirements": ["DevOps", "CI/CD", "Cloud experience"],
       "benefits": ["Remote contract", "Flexible hours"],
       "postedDate": "2024-07-06",
-      "logo": "/placeholder-logo.png",
       "url": "https://opsondemand.example.com/jobs/devops",
       "category": "Operations",
       "tags": ["devops", "ci/cd", "contract"]
@@ -809,7 +773,6 @@
       "requirements": ["HR consulting", "Recruitment", "Policy writing"],
       "benefits": ["Remote contract", "Flexible schedule"],
       "postedDate": "2024-07-07",
-      "logo": "/placeholder-logo.png",
       "url": "https://hrpro.example.com/jobs/consultant",
       "category": "HR",
       "tags": ["hr", "consulting", "contract"]
@@ -825,7 +788,6 @@
       "requirements": ["Project coordination", "Scheduling", "Client communication"],
       "benefits": ["Remote contract", "Flexible hours"],
       "postedDate": "2024-07-08",
-      "logo": "/placeholder-logo.png",
       "url": "https://planwise.example.com/jobs/coord",
       "category": "Project Management",
       "tags": ["project", "coordination", "contract"]
@@ -841,7 +803,6 @@
       "requirements": ["Customer support", "SaaS experience", "Problem-solving"],
       "benefits": ["Remote contract", "Flexible schedule"],
       "postedDate": "2024-07-09",
-      "logo": "/placeholder-logo.png",
       "url": "https://supportnow.example.com/jobs/support",
       "category": "Support",
       "tags": ["support", "saas", "contract"]
@@ -857,7 +818,6 @@
       "requirements": ["Marketing analysis", "Reporting", "Excel"],
       "benefits": ["Remote contract", "Flexible hours"],
       "postedDate": "2024-07-10",
-      "logo": "/placeholder-logo.png",
       "url": "https://marketgenius.example.com/jobs/analyst",
       "category": "Marketing",
       "tags": ["marketing", "analysis", "contract"]
@@ -873,7 +833,6 @@
       "requirements": ["Currently enrolled in CS program", "Basic JavaScript", "Eagerness to learn"],
       "benefits": ["Mentorship", "Remote internship", "Flexible hours"],
       "postedDate": "2024-07-11",
-      "logo": "/placeholder-logo.png",
       "url": "https://nextgentech.example.com/internships/software",
       "category": "Engineering",
       "tags": ["internship", "software", "engineering"]
@@ -889,7 +848,6 @@
       "requirements": ["Marketing student", "Social media", "Analytical skills"],
       "benefits": ["Mentorship", "Remote internship"],
       "postedDate": "2024-07-12",
-      "logo": "/placeholder-logo.png",
       "url": "https://brandboost.example.com/internships/marketing",
       "category": "Marketing",
       "tags": ["internship", "marketing", "student"]
@@ -905,7 +863,6 @@
       "requirements": ["Enrolled in STEM program", "Python basics", "Interest in data"],
       "benefits": ["Mentorship", "Remote internship"],
       "postedDate": "2024-07-13",
-      "logo": "/placeholder-logo.png",
       "url": "https://dataminds.example.com/internships/data",
       "category": "Data Science",
       "tags": ["internship", "data", "science"]
@@ -921,7 +878,6 @@
       "requirements": ["Design student", "Figma or Sketch", "Creativity"],
       "benefits": ["Mentorship", "Remote internship"],
       "postedDate": "2024-07-14",
-      "logo": "/placeholder-logo.png",
       "url": "https://designstart.example.com/internships/uiux",
       "category": "Design",
       "tags": ["internship", "ui", "ux"]
@@ -937,7 +893,6 @@
       "requirements": ["HR student", "People skills", "Organization"],
       "benefits": ["Mentorship", "Remote internship"],
       "postedDate": "2024-07-15",
-      "logo": "/placeholder-logo.png",
       "url": "https://peoplelaunch.example.com/internships/hr",
       "category": "HR",
       "tags": ["internship", "hr", "recruitment"]
@@ -953,7 +908,6 @@
       "requirements": ["Finance student", "Excel", "Attention to detail"],
       "benefits": ["Mentorship", "Remote internship"],
       "postedDate": "2024-07-16",
-      "logo": "/placeholder-logo.png",
       "url": "https://finstart.example.com/internships/finance",
       "category": "Finance",
       "tags": ["internship", "finance", "student"]
@@ -969,7 +923,6 @@
       "requirements": ["Business student", "Interest in operations", "Teamwork"],
       "benefits": ["Mentorship", "Remote internship"],
       "postedDate": "2024-07-17",
-      "logo": "/placeholder-logo.png",
       "url": "https://opslaunch.example.com/internships/ops",
       "category": "Operations",
       "tags": ["internship", "operations", "business"]
@@ -985,7 +938,6 @@
       "requirements": ["Writing skills", "Content creation", "Creativity"],
       "benefits": ["Mentorship", "Remote internship"],
       "postedDate": "2024-07-18",
-      "logo": "/placeholder-logo.png",
       "url": "https://writestart.example.com/internships/content",
       "category": "Content",
       "tags": ["internship", "content", "writing"]
@@ -1001,7 +953,6 @@
       "requirements": ["Customer service", "Communication", "Problem-solving"],
       "benefits": ["Mentorship", "Remote internship"],
       "postedDate": "2024-07-19",
-      "logo": "/placeholder-logo.png",
       "url": "https://supportlaunch.example.com/internships/support",
       "category": "Support",
       "tags": ["internship", "support", "customer"]

@@ -115,20 +115,14 @@ export const JobCard = memo(function JobCard({ job, onClick }: JobCardProps) {
                 <div className="relative mb-2 sm:mb-0">
                   <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-2xl blur opacity-20 group-hover:opacity-40 transition-opacity"></div>
                   <div className="relative w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-r from-slate-100 to-slate-200 dark:from-slate-700 dark:to-slate-600 rounded-2xl flex items-center justify-center overflow-hidden">
-                    {job.logo ? (
-                      <img
-                        src={job.logo || "/placeholder.svg"}
-                        alt={`${job.company} logo`}
-                        className="w-8 h-8 sm:w-12 sm:h-12 object-contain"
-                        loading="lazy"
-                        onError={(e) => {
-                          const target = e.target as HTMLImageElement
-                          target.style.display = "none"
-                          target.nextElementSibling?.classList.remove("hidden")
-                        }}
-                      />
-                    ) : null}
-                    <Building2 className={`w-6 h-6 sm:w-8 sm:h-8 text-slate-600 dark:text-slate-300 ${job.logo ? "hidden" : ""}`} />
+                    <div className="w-full h-full flex items-center justify-center rounded-2xl bg-gradient-to-r from-blue-500 to-purple-500 text-white font-bold text-lg sm:text-2xl select-none">
+                      {job.company
+                        .split(" ")
+                        .filter(Boolean)
+                        .slice(0, 2)
+                        .map(word => word[0].toUpperCase())
+                        .join("")}
+                    </div>
                   </div>
                 </div>
                 <div className="flex-1 min-w-0">
