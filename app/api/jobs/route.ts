@@ -104,12 +104,22 @@ export async function GET() {
       signal: AbortSignal.timeout(15000), // 15 second timeout
     })
 
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`)
+    console.log("API Route: Remotive API status:", response.status);
+
+    let data;
+    try {
+      data = await response.json();
+      console.log("API Route: Remotive API response data:", JSON.stringify(data).slice(0, 500)); // Log first 500 chars
+    } catch (jsonErr) {
+      const text = await response.text();
+      console.error("API Route: Failed to parse JSON from Remotive. Raw response:", text.slice(0, 500));
+      throw new Error("Failed to parse JSON from Remotive API");
     }
 
-    const data = await response.json()
-    console.log("API Route: Received data from Remotive")
+    if (!response.ok) {
+      console.error("API Route: Remotive API returned non-OK status", response.status, data);
+      throw new Error(`HTTP error! status: ${response.status}`)
+    }
 
     // Handle different possible response structures
     let jobs = []
@@ -122,7 +132,7 @@ export async function GET() {
     } else if (data.data && Array.isArray(data.data)) {
       jobs = data.data
     } else {
-      console.warn("API Route: Unexpected response structure")
+      console.warn("API Route: Unexpected response structure", data)
       return NextResponse.json({
         jobs: [],
         source: "api_error",
